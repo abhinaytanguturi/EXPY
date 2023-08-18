@@ -1,0 +1,10 @@
+script path = ../../TestSuites/SATA/TestSATA.py
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.5 -- py-1.4.27 -- pytest-2.7.0
+rootdir: /usr/Eximius/EXPY/TestSuites/SATA, inifile: 
+plugins: html
+collected 3 items
+
+../../TestSuites/SATA/TestSATA.py ...
+
+=========================== 3 passed in 0.02 seconds ===========================
