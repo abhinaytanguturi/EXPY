@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/Exit1.jpg</file>
+    <file>images/TextConsole.png</file>
+    <file>images/settings.jpg</file>
+    <file>images/Elogo.png</file>
+    <file>images/Exit.jpg</file>
+    <file>images/logo.bmp</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+</RCC>

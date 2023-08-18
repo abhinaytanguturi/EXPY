@@ -1,0 +1,17 @@
+  {
+        "location_path": [{
+                "script_path": "/home/chandrikas/EXPY/TestSuites/SATA/TestCaseSample1.py",
+                "log_path": "",
+                "api_path": "",
+                "drive_type": ""
+        }],
+        "details": [{
+                "drive_name": "/dev/sda1"
+        }],
+        "ip_address": [{
+                "ip_address": "172.16.1.222",
+                "user_name": "",
+                "password" : "chandrikas"
+        }]
+  }
+

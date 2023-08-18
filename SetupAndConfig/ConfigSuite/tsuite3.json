@@ -1,0 +1,17 @@
+  {
+        "location_path": [{
+                "script_path": "../../TestSuites/NVMe/TestNVME.py",
+                "log_path": "../../Logging/NVMe/",
+                "api_path": "../TestLib/SATA/StCpp.so",
+                "drive_type": ""
+        }],
+        "details": [{
+                "drive_name": "/dev/nvme0"
+        }],
+        "ip_address": [{
+                "ip_address": "",
+                "user_name": "",
+                "password" : ""
+        }]
+  }
+

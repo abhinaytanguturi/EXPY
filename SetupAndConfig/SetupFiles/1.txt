@@ -1,0 +1,72 @@
+script path = ../../TestSuites/SATA/TestSATA.py
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.5 -- py-1.4.27 -- pytest-2.7.0
+rootdir: /usr/Eximius/EXPY/TestSuites/SATA, inifile: 
+plugins: html
+script path = ../../TestSuites/SATA/TestSATA.py
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.5 -- py-1.4.27 -- pytest-2.7.0
+rootdir: /usr/Eximius/EXPY/TestSuites/SATA, inifile: 
+plugins: html
+collected 4 items
+
+../../TestSuites/SATA/TestSATA.py  setting drive write-caching to 1 (on)
+ write-caching =  1 (on)
+. setting drive write-caching to 0 (off)
+ write-caching =  1 (on)
+.succeeded
+2fb1 7d82 606e b792 97c1 c3ec 2d68 1f5d
+24ee e1f0 6f92 a737 88e8 d914 63de cc9e
+8497 29d5 e14e b89f 08a0 857d 459d 39c6
+ba0d 8d83 afd1 c7e3 8c53 9d3e 305c 63d0
+97be 375f 85ff 50af 8bac 5730 3704 bf76
+cb18 5077 a8dc 53bb 525d f5a0 0a1f 4f41
+f9c1 5d6c 5753 8b8f 2ea2 38e9 9c9d 760e
+90fb e774 94db f602 bf99 f560 3b0d edec
+2740 fa40 2b13 dff5 6781 c65f 5427 aef3
+6389 8f66 6f6d 123b 4ab5 92f1 3959 b4ff
+4881 fe5f a4a4 27d6 a406 b6ed 11db 677f
+77fd 5353 a45d fcdf 4d31 7c37 756c 3669
+a133 07b2 c7cf d162 748f 2297 ef7e a746
+5b80 0d27 40f3 e9c4 4a9b cee2 6af1 74cd
+f11b 29b0 9497 3e3d 1b2f eea6 8bee 43fa
+a20b ffa0 8f27 5f3f db62 f3bb e646 787f
+7355 729c cbd3 f60d 4ed2 1865 973b 5f57
+6791 9528 2dc8 0bbe b1c2 5c7f bab7 29d2
+5c2d 781e f41e 4af2 e449 6a6a db3a 9709
+f4b1 218e 3e58 4dd1 e18b 781e 663b f736
+9111 e517 d6f8 a565 c4b3 c9ea c8ec 46bb
+b87c 0834 e15e 0b47 03e9 28fc 9fb8 fc2e
+ae6f d520 8b8b d3ff 6f8c d34f 6929 d6d1
+5284 41d3 97e3 f767 e8d3 8b8c a1d8 c88f
+1db4 2261 ec70 bd9f 3f13 f5a1 0ce7 23cc
+0e5e e496 57ec c817 03a9 1816 fda2 e1e5
+15d7 ec06 f538 ca0e 5f80 61fc d7a4 0a3e
+9eb1 7c44 f67c bfff 613c 1d57 8de7 0b43
+603c c77e d76e 3cff bd96 8f67 1f3f 0c27
+d054 1b2b ff8e 8fe6 8f0f b41f 4d23 ae80
+c6f3 8b84 f1fc 2236 9e76 8eae bd56 1fd2
+cf62 f3df 17ed 696d bdc4 053b 84f8 f277
+ setting drive write-caching to 0 (off)
+ write-caching =  1 (on)
+.F
+
+=================================== FAILURES ===================================
+_____________________ Test_EntryPoint.test_read_sector_004 _____________________
+
+self = <TestSATA.Test_EntryPoint instance at 0x1ff4ea8>
+
+    def test_read_sector_004(self):
+            r = Storage(device_node.value)
+>           r.ReadSector(r,100)
+E           TypeError: ReadSector() takes exactly 2 arguments (3 given)
+
+../../TestSuites/SATA/TestSATA.py:47: TypeError
+---------------------------- Captured stderr setup -----------------------------
+[2016-08-08 16:29:45,166] - INFO - TEST CASE STARTED
+[2016-08-08 16:29:45,167] - INFO - test_read_sector_004
+----------------------------- Captured stdout call -----------------------------
+13
+14
+!!!!!!!!!!!!!!!!!!!! Interrupted: stopping after 1 failures !!!!!!!!!!!!!!!!!!!!
+====================== 1 failed, 3 passed in 0.08 seconds ======================

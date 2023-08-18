@@ -1,0 +1,107 @@
+script path = ../../TestSuites/SATA/TestSATA.py
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.5, pytest-2.9.2, py-1.4.31, pluggy-0.3.1
+rootdir: /usr/eximius/EXPY/TestSuites/SATA, inifile: 
+collected 4 items
+
+../../TestSuites/SATA/TestSATA.py  setting drive write-caching to 1 (on)
+ write-caching =  1 (on)
+. setting drive write-caching to 0 (off)
+ write-caching =  1 (on)
+.
+ATA device, with non-removable media
+	Model Number:       ST4000DM000-1F2168                      
+	Serial Number:      Z306CT04
+	Firmware Revision:  CC54    
+	Transport:          Serial, SATA 1.0a, SATA II Extensions, SATA Rev 2.5, SATA Rev 2.6, SATA Rev 3.0
+Standards:
+	Used: unknown (minor revision code 0x001f) 
+	Supported: 9 8 7 6 5 
+	Likely used: 9
+Configuration:
+	Logical		max	current
+	cylinders	16383	16383
+	heads		16	16
+	sectors/track	63	63
+	--
+	CHS current addressable sectors:   16514064
+	LBA    user addressable sectors:  268435455
+	LBA48  user addressable sectors: 7814037168
+	Logical  Sector size:                   512 bytes
+	Physical Sector size:                  4096 bytes
+	Logical Sector-0 offset:                  0 bytes
+	device size with M = 1024*1024:     3815447 MBytes
+	device size with M = 1000*1000:     4000787 MBytes (4000 GB)
+	cache/buffer size  = unknown
+	Form Factor: 3.5 inch
+	Nominal Media Rotation Rate: 5900
+Capabilities:
+	LBA, IORDY(can be disabled)
+	Queue depth: 32
+	Standby timer values: spec'd by Standard, no device specific minimum
+	R/W multiple sector transfer: Max = 16	Current = 16
+	Advanced power management level: 128
+	Recommended acoustic management value: 208, current value: 208
+	DMA: mdma0 mdma1 mdma2 udma0 udma1 udma2 udma3 udma4 udma5 *udma6 
+	     Cycle time: min=120ns recommended=120ns
+	PIO: pio0 pio1 pio2 pio3 pio4 
+	     Cycle time: no flow control=120ns  IORDY flow control=120ns
+Commands/features:
+	Enabled	Supported:
+	   *	SMART feature set
+	    	Security Mode feature set
+	   *	Power Management feature set
+	    	Write cache
+	   *	Look-ahead
+	   *	Host Protected Area feature set
+	   *	WRITE_BUFFER command
+	   *	READ_BUFFER command
+	   *	DOWNLOAD_MICROCODE
+	   *	Advanced Power Management feature set
+	    	Power-Up In Standby feature set
+	    	SET_FEATURES required to spinup after power up
+	    	SET_MAX security extension
+	   *	48-bit Address feature set
+	   *	Device Configuration Overlay feature set
+	   *	Mandatory FLUSH_CACHE
+	   *	FLUSH_CACHE_EXT
+	   *	SMART error logging
+	   *	SMART self-test
+	   *	General Purpose Logging feature set
+	   *	WRITE_{DMA|MULTIPLE}_FUA_EXT
+	   *	64-bit World wide name
+	    	Write-Read-Verify feature set
+	   *	WRITE_UNCORRECTABLE_EXT command
+	   *	{READ,WRITE}_DMA_EXT_GPL commands
+	   *	Segmented DOWNLOAD_MICROCODE
+	   *	Gen1 signaling speed (1.5Gb/s)
+	   *	Gen2 signaling speed (3.0Gb/s)
+	   *	Gen3 signaling speed (6.0Gb/s)
+	   *	Native Command Queueing (NCQ)
+	   *	Phy event counters
+	   *	READ_LOG_DMA_EXT equivalent to READ_LOG_EXT
+	   *	DMA Setup Auto-Activate optimization
+	    	Device-initiated interface power management
+	   *	Software settings preservation
+	   *	SMART Command Transport (SCT) feature set
+	   *	SCT Write Same (AC2)
+	    	unknown 206[7]
+	    	unknown 206[12] (vendor specific)
+	   *	reserved 69[7]
+Security: 
+	Master password revision code = 65534
+		supported
+	not	enabled
+	not	locked
+		frozen
+	not	expired: security count
+		supported: enhanced erase
+	486min for SECURITY ERASE UNIT. 486min for ENHANCED SECURITY ERASE UNIT. 
+Logical Unit WWN Device Identifier: 5000c50090d27dc5
+	NAA		: 5
+	IEEE OUI	: 000c50
+	Unique ID	: 090d27dc5
+Checksum: correct
+ setting drive write-caching to 1 (on)
+ write-caching =  0 (off)
+.

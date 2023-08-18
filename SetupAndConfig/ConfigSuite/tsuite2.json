@@ -1,0 +1,17 @@
+  {
+        "location_path": [{
+                "script_path": "../../TestSuites/SATA/TestSATA.py",
+                "log_path": "../../Logging/SATA/",
+                "api_path": "../TestLib/SATA/StCpp.so",
+                "drive_type": ""
+        }],
+        "details": [{
+                "drive_name": "/dev/sda"
+        }],
+        "ip_address": [{
+                "ip_address": "",
+                "user_name": "",
+                "password" : ""
+        }]
+  }
+

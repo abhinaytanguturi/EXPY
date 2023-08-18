@@ -1,0 +1,10 @@
+retval=0
+retvalCacheE=0
+retvalCache=0
+exit=0;
+r=1
+StorageObj=0
+NvmeIdCtrl=0
+NvmeIdList=0
+file1=0
+SATA=0

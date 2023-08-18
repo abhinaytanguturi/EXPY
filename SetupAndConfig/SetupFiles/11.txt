@@ -1,0 +1,150 @@
+script path = ../../TestSuites/SATA/TestSATA.py
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.5 -- py-1.4.27 -- pytest-2.7.0
+rootdir: /usr/Eximius/EXPY/TestSuites/SATA, inifile: 
+plugins: html
+collected 5 items
+
+../../TestSuites/SATA/TestSATA.py  setting drive write-caching to 1 (on)
+ write-caching =  1 (on)
+. setting drive write-caching to 0 (off)
+ write-caching =  1 (on)
+.
+ATA device, with non-removable media
+	Model Number:       ST1000NM0033-9ZM173                     
+	Serial Number:      Z1W3K4WX
+	Firmware Revision:  SN04    
+	Transport:          Serial, SATA Rev 3.0
+Standards:
+	Supported: 9 8 7 6 5 
+	Likely used: 9
+Configuration:
+	Logical		max	current
+	cylinders	16383	16383
+	heads		16	16
+	sectors/track	63	63
+	--
+	CHS current addressable sectors:   16514064
+	LBA    user addressable sectors:  268435455
+	LBA48  user addressable sectors: 1953525168
+	Logical  Sector size:                   512 bytes
+	Physical Sector size:                   512 bytes
+	Logical Sector-0 offset:                  0 bytes
+	device size with M = 1024*1024:      953869 MBytes
+	device size with M = 1000*1000:     1000204 MBytes (1000 GB)
+	cache/buffer size  = unknown
+	Form Factor: 3.5 inch
+	Nominal Media Rotation Rate: 7200
+Capabilities:
+	LBA, IORDY(can be disabled)
+	Queue depth: 32
+	Standby timer values: spec'd by Standard, no device specific minimum
+	R/W multiple sector transfer: Max = 16	Current = 16
+	Recommended acoustic management value: 254, current value: 0
+	DMA: mdma0 mdma1 mdma2 udma0 udma1 udma2 udma3 udma4 udma5 *udma6 
+	     Cycle time: min=120ns recommended=120ns
+	PIO: pio0 pio1 pio2 pio3 pio4 
+	     Cycle time: no flow control=120ns  IORDY flow control=120ns
+Commands/features:
+	Enabled	Supported:
+	   *	SMART feature set
+	    	Security Mode feature set
+	   *	Power Management feature set
+	    	Write cache
+	   *	Look-ahead
+	   *	Host Protected Area feature set
+	   *	WRITE_BUFFER command
+	   *	READ_BUFFER command
+	   *	DOWNLOAD_MICROCODE
+	    	SET_MAX security extension
+	   *	48-bit Address feature set
+	   *	Mandatory FLUSH_CACHE
+	   *	FLUSH_CACHE_EXT
+	   *	SMART error logging
+	   *	SMART self-test
+	   *	General Purpose Logging feature set
+	   *	WRITE_{DMA|MULTIPLE}_FUA_EXT
+	   *	64-bit World wide name
+	   *	IDLE_IMMEDIATE with UNLOAD
+	    	Write-Read-Verify feature set
+	   *	WRITE_UNCORRECTABLE_EXT command
+	   *	{READ,WRITE}_DMA_EXT_GPL commands
+	   *	Segmented DOWNLOAD_MICROCODE
+	    	unknown 119[6]
+	   *	unknown 119[7]
+	   *	Gen1 signaling speed (1.5Gb/s)
+	   *	Gen2 signaling speed (3.0Gb/s)
+	   *	Gen3 signaling speed (6.0Gb/s)
+	   *	Native Command Queueing (NCQ)
+	   *	Phy event counters
+	   *	Idle-Unload when NCQ is active
+	   *	READ_LOG_DMA_EXT equivalent to READ_LOG_EXT
+	   *	DMA Setup Auto-Activate optimization
+	    	Device-initiated interface power management
+	   *	Software settings preservation
+	    	unknown 78[7]
+	   *	SMART Command Transport (SCT) feature set
+	   *	SCT Write Same (AC2)
+	   *	SCT Error Recovery Control (AC3)
+	   *	SCT Features Control (AC4)
+	   *	SCT Data Tables (AC5)
+	    	unknown 206[7]
+	    	unknown 206[12] (vendor specific)
+	    	unknown 206[14] (vendor specific)
+Security: 
+	Master password revision code = 65534
+		supported
+	not	enabled
+	not	locked
+		frozen
+	not	expired: security count
+		supported: enhanced erase
+	114min for SECURITY ERASE UNIT. 114min for ENHANCED SECURITY ERASE UNIT. 
+Logical Unit WWN Device Identifier: 5000c5007aa70524
+	NAA		: 5
+	IEEE OUI	: 000c50
+	Unique ID	: 07aa70524
+Checksum: correct
+ setting drive write-caching to 1 (on)
+ write-caching =  0 (off)
+.succeeded
+b7ca 7f32 9038 34dd 5ddb 5cb6 f95a c191
+f70f 8e47 6779 bf4e 8c5d f8b0 f038 ffc8
+c5a9 0a15 ff8a ddd3 2afb 7d6d 0ecf f9b1
+44f1 c8ec 6ac1 31ff 330f 9d86 95ad de27
+f867 aa6f eb2d 9b0a 1ec7 dde4 19bc 5f98
+79ec 817b fb62 e2f7 d829 8179 1bdb b9b5
+1a15 39e7 c7f0 5335 5742 7bbc 7e2a 8c1e
+e9db 35ef d4e2 d239 bcd5 cfef 4dde 30e6
+6043 dece 837d 3f8d 5df9 39e9 73a0 9dbf
+71e8 1769 73ca 8b8c 4a59 275e d14b abd0
+b965 46c2 2b3f 9bec e5cc eb19 38b8 6145
+6081 f2e6 33f1 4bf1 6f5b fdec 9fd5 8fbc
+37e4 6278 c913 f715 bf37 cd7e 9db5 ecce
+799f 9c73 e793 3f3c e97b 41cf 2ce4 c9e7
+d1c5 4587 ce9d 2931 b2f2 696b f62a c0a6
+a0bf a18b a3d7 b2cf 1969 b6cd e830 5ff5
+7258 d889 456a 05a1 f7c9 e8f6 3082 382e
+3bb3 e4c8 c5e8 4fd4 a5b1 41c8 3482 278b
+91c9 a572 5138 c18b 45bf 3f4d 2478 9204
+b998 377a 8c9f bd5c 140d 56b4 2489 877e
+2115 691f 1b49 5056 0cfa e513 2f72 ae44
+3637 5e43 b954 b346 2196 523f e5c2 0d21
+b94e 2a8e 13a1 84b0 9418 2747 45c6 927f
+d104 7b04 0fbd 0483 5c97 1029 928b 089e
+18fd 404c 142f 16c6 444a 5b2c 8d87 5024
+958a e66a 3ce8 e599 1164 32e4 8a72 2773
+a1ea 248a 8f8d 20eb 9120 d7ac 2278 e132
+1955 2f21 7586 1217 2b99 8599 5492 ff85
+4f3b 8815 d071 0c57 8e36 2d19 e9f5 1876
+2788 69d0 fe41 1c6d 5a33 d21b 30ec 5e0c
+7f39 479b 7dbf e38f 9eeb 6a68 6e4e f81a
+87e1 68f3 00a1 1d07 6acd f077 833e e030
+ setting drive write-caching to 0 (off)
+ write-caching =  1 (on)
+.succeeded
+ setting drive write-caching to 1 (on)
+ write-caching =  1 (on)
+.
+
+=========================== 5 passed in 0.04 seconds ===========================
